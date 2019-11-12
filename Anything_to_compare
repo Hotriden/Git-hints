@@ -1,0 +1,16 @@
+There isn’t anything to compare.
+master and cw_branch are entirely different commit histories.
+
+////////////////////////////
+
+git checkout [BRANCH]
+
+git branch master [BRANCH] -f
+
+git checkout master
+
+git push origin master -f
+
+//////////////////////////
+
+This solution clear master branch and copy [BRANCH] to master
