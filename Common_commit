@@ -1,0 +1,15 @@
+  Full cycle of commit changes on branch
+  (Exist remote repo)
+  //////////////////////////////////////
+  
+  cd %path%
+  
+  git clone https://github.com/Hotriden/Git-hints.git
+  
+  cd Git-hints
+  
+  git add . //// Add all changed files
+  
+  git commit -m "some message"
+  
+  git push origin master
