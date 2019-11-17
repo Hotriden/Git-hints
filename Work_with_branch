@@ -1,0 +1,2 @@
+git branch NEW_Branch - Create new branch
+git checkout NEW_Branch - Switch to NEW_BRANCH or restore working tree files
