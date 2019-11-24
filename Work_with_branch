@@ -1,4 +1,4 @@
 git branch NEW_Branch - Create new branch
 git checkout NEW_Branch - Switch to NEW_BRANCH or restore working tree files
-git fetch REMOTE BRANCH - Fetch remote branch to local
+git fetch origin BRANCH - Fetch remote branch to local
 git pull origin REMOTE BRANCH - Pull repo from remote
