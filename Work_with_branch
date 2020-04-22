@@ -1,10 +1,20 @@
+##### Create New branch #####
 git branch NEW_Branch - Create new branch
 git checkout NEW_Branch - Switch to NEW_BRANCH or restore working tree files
 git fetch origin BRANCH - Fetch remote branch to local
 git pull origin REMOTE BRANCH - Pull repo from remote
 
-Synchronize master with another branch:
+##### Synchronize master with another branch #####
 git checkout master
 git pull
 git checkout mobiledevicesupport
 git merge master
+
+##### Add files from one branch to another (if forget to switch branch) ######
+git stash (on wrong branch)
+git checkout correct_branch
+git stash apply
+
+##### Synchronize two branches (needed_branch should be as master branch)
+git checkout needed_branch
+git rebase master
